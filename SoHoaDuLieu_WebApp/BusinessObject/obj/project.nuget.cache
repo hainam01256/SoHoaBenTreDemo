@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sYtJvpEN0tGoS4hj30jmfcc+5/9HbktCmZD8tE2I8BNuctznm7geNewGZNzKrMlJ4IdNTPXq9727qsibXmNdAA==",
+  "dgSpecHash": "HhEPlWjkIkIM3RjwGrsmniFKWlp49xXWny/4RJdfhzHH99QCiJEGr/5gv5ZJdj2LemAZd0GpcjJX44r8jIvtDw==",
   "success": true,
-  "projectFilePath": "D:\\TriThuc-2021\\PDFToText\\SoHoaDuLieu_WebApp\\BusinessObject\\BusinessObject.csproj",
+  "projectFilePath": "D:\\TriThuc-2021\\PDFToText\\SoHoaBenTreDemo\\SoHoaDuLieu_WebApp\\BusinessObject\\BusinessObject.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

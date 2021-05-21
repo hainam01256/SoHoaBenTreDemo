@@ -4,7 +4,11 @@ using System.Text;
 
 namespace BusinessObject
 {
-    public class LoaiVanBan
+    /// <summary>
+    /// Created by Hải Nam
+    /// Date: 20/05/2021 - 10:05
+    /// </summary>
+    public class LoaiHoSoApi
     {
         public int? Id { get; set; }
         public string TenLoaiVanBan { get; set; }

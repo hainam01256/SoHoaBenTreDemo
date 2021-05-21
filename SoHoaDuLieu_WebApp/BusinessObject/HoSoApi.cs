@@ -2,7 +2,11 @@
 
 namespace BusinessObject
 {
-    public class VanBan
+    /// <summary>
+    /// Created by Hải Nam
+    /// Date: 20/05/2021 - 10:05
+    /// </summary>
+    public class HoSoApi
     {
         public int Id { get; set; }
         public string TenVanBan { get; set; }

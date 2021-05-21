@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TriThuc-2021\\PDFToText\\SoHoaDuLieu_WebApp\\BusinessObject\\BusinessObject.csproj": {}
+    "D:\\TriThuc-2021\\PDFToText\\SoHoaBenTreDemo\\SoHoaDuLieu_WebApp\\BusinessObject\\BusinessObject.csproj": {}
   },
   "projects": {
-    "D:\\TriThuc-2021\\PDFToText\\SoHoaDuLieu_WebApp\\BusinessObject\\BusinessObject.csproj": {
+    "D:\\TriThuc-2021\\PDFToText\\SoHoaBenTreDemo\\SoHoaDuLieu_WebApp\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TriThuc-2021\\PDFToText\\SoHoaDuLieu_WebApp\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "D:\\TriThuc-2021\\PDFToText\\SoHoaBenTreDemo\\SoHoaDuLieu_WebApp\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\TriThuc-2021\\PDFToText\\SoHoaDuLieu_WebApp\\BusinessObject\\BusinessObject.csproj",
+        "projectPath": "D:\\TriThuc-2021\\PDFToText\\SoHoaBenTreDemo\\SoHoaDuLieu_WebApp\\BusinessObject\\BusinessObject.csproj",
         "packagesPath": "C:\\Users\\Msi\\.nuget\\packages\\",
-        "outputPath": "D:\\TriThuc-2021\\PDFToText\\SoHoaDuLieu_WebApp\\BusinessObject\\obj\\",
+        "outputPath": "D:\\TriThuc-2021\\PDFToText\\SoHoaBenTreDemo\\SoHoaDuLieu_WebApp\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
