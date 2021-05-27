@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import * as $ from 'jquery';
+
 
 @Component({
   selector: 'app-root',
@@ -7,12 +7,8 @@ import * as $ from 'jquery';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'SoHoaBenTreApp';
+  panelOpenState = false;
   ngOnInit() {
-    //Toggle Click Function
-    $("#menu-toggle").click(function (e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
+
   }
 }

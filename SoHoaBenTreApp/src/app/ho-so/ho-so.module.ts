@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { HoSoComponent } from './ho-so.component';
-
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,9 @@ import { HoSoComponent } from './ho-so.component';
   ],
   imports: [
     CommonModule,
-    NgxExtendedPdfViewerModule
+    NgxExtendedPdfViewerModule,
+    MatFormFieldModule,
+    MatSelectModule
   ],
   exports: [HoSoComponent]
 })

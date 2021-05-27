@@ -1,12 +1,34 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HoSoModule } from './ho-so/ho-so.module';
 
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatExpansionModule} from '@angular/material/expansion';
 
+const routes: Routes = [
+  {
+      path: '',
+      children: [
+          {
+              path:'',
+              redirectTo: 'trang-chu', pathMatch: 'full'
+          },
+          {
+              path        : 'trang-chu',
+              loadChildren: './trang-chu/app.module#AppModule'
+          },
+          {
+              path: '**',
+              redirectTo: 'page-not-found',
+          }
+      ]
+  }
+  
+];
 @NgModule({
   declarations: [
     AppComponent
@@ -14,7 +36,11 @@ import { HoSoModule } from './ho-so/ho-so.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HoSoModule
+    HoSoModule,
+    BrowserAnimationsModule,
+    MatExpansionModule,
+    RouterModule.forChild(routes)
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
