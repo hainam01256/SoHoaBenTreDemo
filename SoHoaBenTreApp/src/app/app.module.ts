@@ -8,6 +8,7 @@ import { HoSoModule } from './ho-so/ho-so.module';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { ErrorPageModule } from './error-page/error-page.module';
 
 const routes: Routes = [
   {
@@ -39,7 +40,8 @@ const routes: Routes = [
     HoSoModule,
     BrowserAnimationsModule,
     MatExpansionModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    ErrorPageModule
     
   ],
   providers: [],
