@@ -400,7 +400,7 @@
           </a>
           <div class="collapse" id="page-layouts">
             <ul class="nav flex-column sub-menu">
-              <li class="nav-item d-none d-lg-block"> <a class="nav-link" href="pages/layout/boxed-layout.html">Danh sách hồ sơ</a></li>
+              <li class="nav-item d-none d-lg-block"> <a class="nav-link" href="/src/app/ho-so/ho-so.component.html">Danh sách hồ sơ</a></li>
               <li class="nav-item"> <a class="nav-link" href="pages/layout/rtl-layout.html"><i class="fas fa-clipboard-list"></i>Duyệt hồ sơ</a></li>
               <li class="nav-item d-none d-lg-block"> <a class="nav-link" href="pages/layout/horizontal-menu.html">Thống kê số hóa hồ sơ</a></li>
             </ul>
@@ -652,7 +652,8 @@
     </nav>
     <!-- partial -->
     <div class="main-panel">
-      <div class="content-wrapper">
+      <router-outlet></router-outlet>
+      <!-- <div class="content-wrapper">
         <div class="page-header">
           <h3 class="page-title">
             Dashboard
@@ -1258,7 +1259,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- content-wrapper ends -->
       <!-- partial:partials/_footer.html -->
       <footer class="footer">
