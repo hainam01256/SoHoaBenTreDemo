@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve --open --port=4200",
+    "build": "node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng build --dev",
+    "build-stats": "node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng build --dev --stats-json",
+    "build-prod": "node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng build --prod",
+    "build-prod-stats": "node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng build --prod --stats-json",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
