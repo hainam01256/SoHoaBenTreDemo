@@ -39,13 +39,14 @@
               }
             ],
             "styles": [
+              "src/styles.scss",
               "src/assets/vendors/iconfonts/font-awesome/css/all.min.css",
               "src/assets/vendors/css/vendor.bundle.base.css",
               "src/assets/vendors/css/vendor.bundle.addons.css",
-              "src/assets/css/style.css",
 
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "src/assets/css/style.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.js",
@@ -62,6 +63,7 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/popper.js/dist/umd/popper.min.js"
+              
 
               
             ]

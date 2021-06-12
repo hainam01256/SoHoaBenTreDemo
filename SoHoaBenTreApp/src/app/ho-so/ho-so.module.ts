@@ -9,6 +9,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from "@angular/material/button";
 import { MatExpansionModule } from '@angular/material/expansion';
+import { MatTableModule } from "@angular/material/table";
 import { ChiTietHoSoComponent } from './chi-tiet-ho-so/chi-tiet-ho-so.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
@@ -26,9 +27,10 @@ import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
     BrowserAnimationsModule,
     MatExpansionModule,
     NgxExtendedPdfViewerModule,
+    MatTableModule
   ],
   exports:[
-    DanhSachHoSoComponent,ThemHoSoComponent,ChiTietHoSoComponent,HoSoRoutingModule
+    DanhSachHoSoComponent,ThemHoSoComponent,ChiTietHoSoComponent
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })

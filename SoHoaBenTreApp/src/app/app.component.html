@@ -363,68 +363,43 @@
     <!-- partial:partials/_sidebar.html -->
     <nav class="sidebar sidebar-offcanvas" id="sidebar">
       <ul class="nav">
-        <!-- Khung giao diện tài khoản -->
-        <li class="nav-item nav-profile">
-          <div class="nav-link">
-            <div class="profile-image">
-              <img src="../assets/images/faces/face5.jpg" alt="image"/>
-            </div>
-            <div class="profile-name">
-              <p class="name">
-                Welcome Jane
-              </p>
-              <p class="designation">
-                Super Admin
-              </p>
-            </div>
-          </div>
-        </li>
-        <!-- Menu chức năng -->
         <li class="nav-item">
-          <a class="nav-link" href="/trang-chu">
-            <i class="fa fa-home menu-icon"></i>
-            <span class="menu-title">Trang chủ</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/thong-bao">
-            <i class="fa fa-puzzle-piece menu-icon"></i>
-            <span class="menu-title">Thông báo</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="collapse" href="#page-layouts" aria-expanded="false" aria-controls="page-layouts">
+          <a class="nav-link" data-toggle="collapse" href="#quan-ly-ho-so" aria-expanded="false" aria-controls="page-layouts">
             <i class="fab fa-trello menu-icon"></i>
             <span class="menu-title">Quản lý hồ sơ</span>
             <i class="menu-arrow"></i>
           </a>
-          <div class="collapse" id="page-layouts">
+          <div class="collapse" id="quan-ly-ho-so">
             <ul class="nav flex-column sub-menu">
-              <li class="nav-item d-none d-lg-block"> <a class="nav-link" routerLink="/quan-ly-ho-so/danh-sach-ho-so" routerLinkActive="active"><i class="fas fa-list-alt"></i>Danh sách hồ sơ</a></li>
-              <li class="nav-item"> <a class="nav-link" href="/quan-ly-ho-so/duyet-ho-so"><i class="fas fa-clipboard-list"></i>Duyệt hồ sơ</a></li>
-              <li class="nav-item d-none d-lg-block"> <a class="nav-link" href="/quan-ly-ho-so/xuat-thong-ke">Thống kê số hóa hồ sơ</a></li>
+              <li class="nav-item d-none d-lg-block"> <a class="nav-link" href="/quan-ly-ho-so/danh-sach-ho-so">Danh sách hồ sơ</a></li>
+              <li class="nav-item"> <a class="nav-link" href="pages/layout/rtl-layout.html">RTL</a></li>
+              <li class="nav-item d-none d-lg-block"> <a class="nav-link" href="pages/layout/horizontal-menu.html">Horizontal Menu</a></li>
             </ul>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="**" routerLinkActive="active">
-            <i class="fa fa-puzzle-piece menu-icon"></i>
-            <span class="menu-title">Error Page</span>
+        <li class="nav-item d-none d-lg-block">
+          <a class="nav-link" data-toggle="collapse" href="#sidebar-layouts" aria-expanded="false" aria-controls="sidebar-layouts">
+            <i class="fas fa-columns menu-icon"></i>
+            <span class="menu-title">Sidebar Layouts</span>
+            <i class="menu-arrow"></i>
           </a>
+          <div class="collapse" id="sidebar-layouts">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item"> <a class="nav-link" href="pages/layout/compact-menu.html">Compact menu</a></li>
+              <li class="nav-item"> <a class="nav-link" href="pages/layout/sidebar-collapsed.html">Icon menu</a></li>
+              <li class="nav-item"> <a class="nav-link" href="pages/layout/sidebar-hidden.html">Sidebar Hidden</a></li>
+              <li class="nav-item"> <a class="nav-link" href="pages/layout/sidebar-hidden-overlay.html">Sidebar Overlay</a></li>
+              <li class="nav-item"> <a class="nav-link" href="pages/layout/sidebar-fixed.html">Sidebar Fixed</a></li>
+            </ul>
+          </div>
         </li>
+        
       </ul>
     </nav>
     <!-- partial -->
     <div class="main-panel">
       <router-outlet></router-outlet>
-      <!-- partial:partials/_footer.html -->
-      <footer class="footer">
-        <div class="d-sm-flex justify-content-center justify-content-sm-between">
-          <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021 by Tri Thuc Software. All rights reserved.</span>
-          <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Phần mềm số hóa lưu trữ quốc gia</span>
-        </div>
-      </footer>
-      <!-- partial -->
+      <!-- content-wrapper ends -->
     </div>
     <!-- main-panel ends -->
   </div>

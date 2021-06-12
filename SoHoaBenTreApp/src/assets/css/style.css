@@ -19935,6 +19935,7 @@ code {
 /* Layouts */
 .default-layout-navbar + .page-body-wrapper {
   padding-top: 70px;
+  padding-left: 0;
 }
 
 @media (min-width: 992px) {

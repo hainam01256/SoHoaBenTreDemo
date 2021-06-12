@@ -6,14 +6,14 @@
       var currentChart = new Chart(currentChartCanvas, {
         type: 'bar',
         data: {
-          labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+          labels: ["Thg 1", "Thg 2", "Thg 3", "Thg 4", "Thg 5", "Thg 6", "Thg 7", "Thg 8", "Thg 9", "Thg 10", "Thg 11", "Thg 12"],
           datasets: [{
-              label: 'Delivered',
+              label: 'Đã chuẩn hóa',
               data: [260, 380, 230, 400, 780, 530, 340, 200, 400, 650, 780, 500],
               backgroundColor: '#392c70'
             },
             {
-              label: 'Estimated',
+              label: 'Chưa chuẩn hóa',
               data: [480, 600, 510, 600, 1000, 570, 500, 350, 450, 710, 820, 650],
               backgroundColor: '#d1cede'
             }
