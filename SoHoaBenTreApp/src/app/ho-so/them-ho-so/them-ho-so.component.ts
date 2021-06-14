@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, VERSION, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-them-ho-so',

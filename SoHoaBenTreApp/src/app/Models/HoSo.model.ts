@@ -3,10 +3,14 @@ export class HoSo {
     Ten: string;
     NgayTao: Date;
     NgaySua: Date;
+    NgayBatDau: Date;
+    NgayKetThuc: Date;
+    NoiDung: string;
     NguoiTao: string;
     NguoiSua: string;
     NguoiDuyet1: string;
     NguoiDuyet2: string;
+    TrangThai: number;
     NoiDungBocTach: Array<string>;
     LoaiHoSoId: number;
     constructor(hoSo: HoSo) {
@@ -21,5 +25,11 @@ export class HoSo {
         this.NguoiDuyet2 = hoSo.NguoiDuyet1 || '';
         this.NoiDungBocTach = hoSo.NoiDungBocTach || [];
         this.LoaiHoSoId = hoSo.LoaiHoSoId || 0;
+
+        this.NgayBatDau= hoSo.NgayBatDau || new Date;
+        this.NgayKetThuc = hoSo.NgayKetThuc || new Date;
+        this.NoiDung = hoSo.NoiDung || '';
+        this.TrangThai = hoSo.TrangThai || 0;
+
     }
 }

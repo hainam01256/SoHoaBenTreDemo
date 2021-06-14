@@ -18423,6 +18423,9 @@ input:focus {
   padding: 0;
   width: 255px;
   z-index: 11;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
   transition: width 0.25s ease, background 0.25s ease;
   -webkit-transition: width 0.25s ease, background 0.25s ease;
   -moz-transition: width 0.25s ease, background 0.25s ease;
@@ -18877,7 +18880,7 @@ input:focus {
 }
 
 .navbar.default-layout-navbar .navbar-brand-wrapper {
-  background: #ffffff;
+  background: -webkit-linear-gradient(top, #338390, #28b7ce);
   transition: width 0.25s ease, background 0.25s ease;
   -webkit-transition: width 0.25s ease, background 0.25s ease;
   -moz-transition: width 0.25s ease, background 0.25s ease;
@@ -18928,7 +18931,7 @@ input:focus {
 }
 
 .navbar.default-layout-navbar .navbar-menu-wrapper {
-  background: #ffffff;
+  background: -webkit-linear-gradient(top, #338390, #28b7ce);
   transition: width 0.25s ease, background 0.25s ease;
   -webkit-transition: width 0.25s ease, background 0.25s ease;
   -moz-transition: width 0.25s ease, background 0.25s ease;

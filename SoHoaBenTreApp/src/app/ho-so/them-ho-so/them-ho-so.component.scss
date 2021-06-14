@@ -1,0 +1,42 @@
+#new-content {
+    width: 100%;
+    float: unset;
+    overflow: hidden;
+}
+.thongtinTL {
+    border-top: 2px solid orange;
+    box-shadow: black;
+    width: 50%;
+    float: left;
+}
+.pdfPanel {
+    border-top: 2px solid orange;
+    box-shadow: black;
+    width: 50%;
+    float: left;
+}
+.button-row {
+    display: table-cell;
+    width: auto;
+    text-align: center;
+}
+
+.form-group {
+    margin-top: 5px;
+}
+.mat-raised-button {
+    margin: 8px;
+    margin-right: 10px;
+}
+@media print{
+    #printContainer>div .zoom{
+        margin-top: 6%;
+    }
+    #printContainer>div .loadingInProgress.body{
+        box-shadow: 0px 0px 4px 4px #8888;
+        padding-top: 5px;
+    }
+}
+.col-form-label{
+    float: right;
+}

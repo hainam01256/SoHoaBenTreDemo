@@ -142,27 +142,24 @@
         type: 'pie',
         data: {
           datasets: [{
-            data: [75, 25, 15, 10],
+            data: [75, 25, 15],
             backgroundColor: [
               '#392c70',
               '#04b76b',
-              '#ff5e6d',
-              '#eeeeee'
+              '#ff5e6d'
             ],
             borderColor: [
               '#392c70',
               '#04b76b',
-              '#ff5e6d',
-              '#eeeeee'
+              '#ff5e6d'
             ],
           }],
       
           // These labels appear in the legend and in the tooltips when hovering different arcs
           labels: [
-            'Active users',
-            'Subscribers',
-            'New visitors',
-            'Others'
+            'Số lượng hồ sơ chưa được lưu trữ',
+            'Số lượng hồ sơ đã được lưu trữ',
+            'Số lượng hồ sơ đang chờ duyệt'
           ]
         },
         options: {
@@ -195,9 +192,8 @@
     if ($("#daily-sales-chart").length) {
       var dailySalesChartData = {
         datasets: [{
-          data: [50, 10, 10, 30],
+          data: [60, 10, 30],
           backgroundColor: [
-            '#392c70',
             '#04b76b',
             '#e9e8ef',
             '#ff5e6d'
@@ -207,10 +203,9 @@
     
         // These labels appear in the legend and in the tooltips when hovering different arcs
         labels: [
-          'Mail order sales',
-          'Instore sales',
-          'Download sales',
-          'Sales return'
+          'Số lượng ngày hôm nay đã nộp',
+          'Số lượng hồ sơ đang chờ duyệt',
+          'Số lượng hồ sơ không đạt yêu cầu'
         ]
       };
       var dailySalesChartOptions = {

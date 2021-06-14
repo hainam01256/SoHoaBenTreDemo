@@ -1,20 +1,96 @@
-<div class="col-md-6">
-    <!-- <mat-form-field appearance="fill">
-        <mat-label>Input</mat-label>
-        <input matInput>
-    </mat-form-field>
-    <mat-form-field appearance="fill">
-        <mat-label>Select</mat-label>
-        <mat-select>
-            <mat-option value="one">First option</mat-option>
-            <mat-option value="two">Second option</mat-option>
-        </mat-select>
-    </mat-form-field>
-    <mat-form-field appearance="fill">
-        <mat-label>Textarea</mat-label>
-        <textarea matInput></textarea>
-    </mat-form-field> -->
-</div>
-<div class="col-md-6">
-    <ngx-extended-pdf-viewer height="80vh"></ngx-extended-pdf-viewer>
+<div class="content-wrapper">
+    <div class="page-header">
+        <h3 class="page-title">
+            Thông tin tài liệu
+        </h3>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Quản lý hồ sơ</a></li>
+                <li class="breadcrumb-item"><a href="/quan-ly-ho-so/danh-sach-ho-so">Danh sách hồ sơ</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Thêm mới hồ sơ</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="row">
+        <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <form class="forms-sample">
+                        <div class="form-group row">
+                            <label for="exampleInputUsername2" class="col-sm-3 col-form-label">Loại tài liệu</label>
+                            <div class="col-sm-9">
+                                <select class="form-control">
+                                    <option>Văn bản hành chính</option>
+                                    <option>Văn bản nghị định</option>
+                                    <option>Văn bản nghị quyết</option>
+                                    <option>Văn bản hành chính công</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Mã hồ sơ</label>
+                            <div class="col-sm-9">
+                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Mã hồ sơ">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputMobile" class="col-sm-3 col-form-label">Tên hồ sơ</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="exampleInputMobile" placeholder="Tên hồ sơ">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputPassword2" class="col-sm-3 col-form-label">Ngày tạo hồ sơ</label>
+                            <div class="col-sm-9">
+                                <!-- <input type="text" class="form-control" id="exampleInputPassword2" placeholder="dd/MM/yyyy"> -->
+                                <div id="datepicker-popup" class="input-group date datepicker">
+                                    <input type="text" class="form-control">
+                                    <span class="input-group-addon input-group-append border-left">
+                                        <span class="far fa-calendar input-group-text"></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Ngày sửa hồ
+                                sơ</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="exampleInputConfirmPassword2"
+                                    placeholder="dd/MM/yyyy">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputMobile" class="col-sm-3 col-form-label">Nội dung</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="exampleInputMobile" placeholder="Nội dung">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputMobile" class="col-sm-3 col-form-label">Sổ văn bản</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="exampleInputMobile"
+                                    placeholder="Sổ văn bản">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputMobile" class="col-sm-3 col-form-label">Trích yếu</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="exampleInputMobile"
+                                    placeholder="Trích yếu">
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-light mr-2">Thoát</button>
+                        <button type="submit" class="btn btn-primary mr-2">Xác nhận & Lưu</button>
+                        <button type="submit" class="btn btn-light mr-2">Duyệt</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+                <ngx-extended-pdf-viewer height="80vh" [textLayer]="true" [showHandToolButton]="true"></ngx-extended-pdf-viewer>
+            </div>
+        </div>
+    </div>
 </div>
