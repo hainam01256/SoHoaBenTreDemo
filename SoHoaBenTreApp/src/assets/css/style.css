@@ -18421,7 +18421,7 @@ input:focus {
   font-family: "PTSans", sans-serif;
   font-weight: 400;
   padding: 0;
-  width: 255px;
+  width: auto;
   z-index: 11;
   border: 1px solid;
   padding: 10px;

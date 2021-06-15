@@ -46,12 +46,12 @@
 
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
-              "src/assets/css/style.css"
+              "src/assets/css/style.css",
+              "src/assets/css/style2.css"
             ],
             "scripts": [
               
               "node_modules/jquery/dist/jquery.js",
-              "src/assets/js/formpickers.js",
               "src/assets/vendors/js/vendor.bundle.base.js",
               "src/assets/vendors/js/vendor.bundle.addons.js",
 
@@ -66,9 +66,9 @@
 
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/popper.js/dist/umd/popper.min.js"
-              
-
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "src/assets/js/moment-2.10.3.js",
+              "src/assets/js/bootstrap-datetimepicker.js"
               
             ]
           },
